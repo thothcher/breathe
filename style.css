@@ -1,0 +1,59 @@
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #0f1724;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+
+  .bubble {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(145deg, #7c3aed, #4c1d95);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    transition: width 1s linear, height 1s linear;
+  }
+
+  .timer {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+
+  .phase {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .controls {
+    display: flex;
+    gap: 10px;
+  }
+
+  button {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #7c3aed;
+    color: #fff;
+    font-size: 16px;
+  }
+
+  button.stop {
+    background: #e11d48;
+  }
